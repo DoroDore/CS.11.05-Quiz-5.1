@@ -113,7 +113,6 @@ class MainTest {
 
         for (int i = 0; i < expectedTwo.length; i++) assertEquals(expectedTwo[i], actualTwo[i]);
         for (int i = 0; i < actualTwo.length; i++) assertEquals(expectedTwo[i], actualTwo[i]);
-
     }
 
     @org.junit.jupiter.api.Test
